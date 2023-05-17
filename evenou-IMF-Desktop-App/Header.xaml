@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="evenou_IMF_Desktop_App.Header"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:evenou_IMF_Desktop_App"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" AutomationProperties.IsRowHeader="True" DataContext="{Binding Mode=OneWay, RelativeSource={RelativeSource Self}}">
+    <Grid Height="45" Background="White" >
+
+    </Grid>
+</UserControl>
