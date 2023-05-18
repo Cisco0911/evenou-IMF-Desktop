@@ -49,9 +49,13 @@
                 </Border>
             </Grid>
             <Grid Grid.Row="2" >
-                <credits:CreditsView />
+                <Border Margin="15" Padding="5" CornerRadius="10"  >
+                    <credits:CreditsView />
+                </Border>
             </Grid>
             
         </Grid>
     </Grid>
 </Window>
+
+<!--  BorderBrush="red" BorderThickness="3"  -->
